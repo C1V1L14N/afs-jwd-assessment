@@ -1,0 +1,23 @@
+
+nz-header {
+    background-color: aquamarine;
+}
+
+a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+    color: blue;
+    margin: 1em;
+    }
+a:visited {
+    color: purple;
+    }
+a:hover {
+    color: green;
+    }
+a.active {
+    color: red;
+    }
+
+nz-footer {
+    position: relative;
+    margin-top: auto;
+}

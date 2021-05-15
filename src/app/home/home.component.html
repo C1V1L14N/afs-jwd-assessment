@@ -1,0 +1,19 @@
+<nz-layout>
+    
+    <nz-header>
+        <nav>
+            <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+            <a routerLink="/home/customers" routerLinkActive="active" >Customers</a>
+            <a routerLink="/home/contractors" routerLinkActive="active" >Contractors</a>            
+        </nav>        
+    </nz-header>
+
+    <nz-content><router-outlet></router-outlet></nz-content>
+
+    <nz-footer>Kenny McKeown</nz-footer>
+
+</nz-layout>
+
+
+
+
