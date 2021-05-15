@@ -5,7 +5,7 @@ import {CustomersComponent} from './customers/customers.component';
 import { ContractorsComponent } from './contractors/contractors.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzTableModule } from 'ng-zorro-antd/table';
+
 
 
 
@@ -23,7 +23,6 @@ import { NzTableModule } from 'ng-zorro-antd/table';
     CommonModule,
     AppRoutingModule,
     NzLayoutModule,
-    NzTableModule
   ]
 })
 export class HomeModule { }

@@ -12,7 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzTableModule } from 'ng-zorro-antd/table';
+
+
 
 
 registerLocaleData(en);
@@ -29,7 +30,6 @@ registerLocaleData(en);
     HttpClientModule,
     BrowserAnimationsModule,
     NzLayoutModule,
-    NzTableModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
